@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+/*
+With 100vh we indicate that our container measures the height of our device. If our monitor is 800px high, it is the measurement of our layer.
+
+It is very important to add the min-height attribute to indicate a minimum height. Since if we load this example on a mobile in landscape, the layer would only measure 320px in height. With min-height we make sure that it never measures less than 600px.
+*/
+.father{
+    height: 100vh;  /*this   */
+    min-height:600px;
+
+
+}
+/*
+For the son we use position: absolute. With Up: 50% and left: 50% we position the upper left corner of our box in the center of the screen. Y transformation with: translate (-50%, - 50%). These percentages refer to the size of the box. In other words, if the box is 500px wide, we would be moving it 250px to the left. If it is 100px high, we move it 50px up. With this we manage to position it in the center.
+*/
+.container_right{
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
+  text-align: center;
+
+
+}
+
+
+div > p {
+  /* float: left;
+  padding-left: 10px; */
+  float: left;
+  padding-left: 10px;
+
+
+
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(to bottom, #3a2c0f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+
+}
