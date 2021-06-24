@@ -18,7 +18,7 @@ It is very important to add the min-height attribute to indicate a minimum heigh
 /*
 For the son we use position: absolute. With Up: 50% and left: 50% we position the upper left corner of our box in the center of the screen. Y transformation with: translate (-50%, - 50%). These percentages refer to the size of the box. In other words, if the box is 500px wide, we would be moving it 250px to the left. If it is 100px high, we move it 50px up. With this we manage to position it in the center.
 */
-.container_right{
+.container_son{
 
   position: absolute;
   top:50%;
