@@ -27,7 +27,7 @@ For the son we use position: absolute. With Up: 50% and left: 50% we position th
   max-width: 50%;
   text-align: center;
 
-
+  
 }
 
 
@@ -45,5 +45,7 @@ div > p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
+
+
 
 }
